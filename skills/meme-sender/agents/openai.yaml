@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meme Sender"
+  short_description: "Add context/proactive meme sending to QQ bots"
+  default_prompt: "Use $meme-sender to add context-triggered and proactive meme sending to the bot."

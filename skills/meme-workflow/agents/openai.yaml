@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meme Workflow"
+  short_description: "Reusable workflow for adding bot meme sending"
+  default_prompt: "Use $meme-workflow to design and implement meme sending for a bot."

@@ -1,0 +1,4 @@
+[submodule "projects/yishen-navigation"]
+	path = projects/yishen-navigation
+	url = https://github.com/080117/yishen-navigation.git
+	branch = main

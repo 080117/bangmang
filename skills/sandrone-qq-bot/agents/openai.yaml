@@ -1,0 +1,4 @@
+interface:
+  display_name: "桑多涅 QQ 机器人"
+  short_description: "把 cc-connect QQ 机器人配置成桑多涅人设并隐藏思考和工具过程"
+  default_prompt: "用 $sandrone-qq-bot 把 cc-connect QQ 机器人配置成桑多涅人设并隐藏思考和工具过程"

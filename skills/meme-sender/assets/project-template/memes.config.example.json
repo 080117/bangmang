@@ -1,0 +1,9 @@
+{
+  "memes": {
+    "dir": "assets/memes",
+    "proactive_recipients": [],
+    "proactive_all_groups": false,
+    "proactive_excluded_groups": [],
+    "context_aliases": {}
+  }
+}
