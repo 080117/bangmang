@@ -7,6 +7,7 @@
 独立项目以 git submodule 方式收录，保留各自的 git 历史与远程仓库。
 
 - `projects/yishen-navigation`：依神网站汇总
+- `projects/refined-moments`：朋友圈工坊
 - `projects/yishen-navigation-tools`：该项目协作脚本与说明
 
 ## skills/ 技能区

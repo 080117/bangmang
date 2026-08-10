@@ -1,0 +1,4 @@
+interface:
+  display_name: "茜特菈莉QQ机器人"
+  short_description: "基于 NapCat+Node.js 的 QQ 机器人（茜特菈莉人设）"
+  default_prompt: "维护或修改茜特菈莉人设的 QQ 机器人"

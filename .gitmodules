@@ -2,3 +2,7 @@
 	path = projects/yishen-navigation
 	url = https://github.com/080117/yishen-navigation.git
 	branch = main
+[submodule "projects/refined-moments"]
+	path = projects/refined-moments
+	url = https://github.com/080117/refined-moments.git
+	branch = main

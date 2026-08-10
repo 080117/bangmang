@@ -7,6 +7,9 @@
 - `yishen-navigation`：依神网站汇总
   - submodule URL：`https://github.com/080117/yishen-navigation.git`
   - 跟踪分支：`main`
+- `refined-moments`：朋友圈工坊
+  - submodule URL：`https://github.com/080117/refined-moments.git`
+  - 跟踪分支：`main`
 - `yishen-navigation-tools`：该项目协作脚本与说明
   - `AGENT.md`：项目协作约定
   - `github-pr.mjs`：创建/更新 PR 的辅助脚本
