@@ -1,0 +1,9 @@
+# 戒社 AI · Netlify 配置
+[build]
+  publish = "web"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/chat"
+  to = "/.netlify/functions/chat"
+  status = 200
