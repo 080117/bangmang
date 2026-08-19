@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="戒社 AI · 赛博忏悔室——B站反赌博UP主「戒社」的AI致敬版：忏悔室倾诉、问答科普、闲聊三种模式。AI生成，非本人，仅供娱乐。">
+<title>戒社 AI · 赛博忏悔室</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23d0453b'/%3E%3Cstop offset='1' stop-color='%23a92f27'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='45' font-size='34' fill='%23fdf6ea' text-anchor='middle' font-family='KaiTi,STKaiti,serif'%3E戒%3C/text%3E%3C/svg%3E">
+<script>try{var t=localStorage.getItem('jsai.theme')||'auto';document.documentElement.dataset.theme=(t==='light'||t==='dark')?t:(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');}catch(e){}</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <div id="backdrop" hidden></div>
+
+  <!-- ============ 侧栏：品牌 / 新会话 / 历史 / 工具 ============ -->
+  <aside id="sidebar">
+    <div class="sidebar-head">
+      <div class="brand">
+        <div class="brand-mark">戒</div>
+        <div class="brand-text">
+          <h1>戒社 AI</h1>
+          <p>赛博忏悔室 · 仅供娱乐</p>
+        </div>
+      </div>
+      <button id="sidebarClose" class="icon-btn only-mobile" aria-label="收起侧栏">✕</button>
+    </div>
+
+    <button id="newChatBtn" class="new-chat" title="开始一场新会话">
+      <span class="plus">＋</span><span>新开一场</span><kbd>Ctrl N</kbd>
+    </button>
+
+    <div class="search-wrap">
+      <span class="search-ic">🔍</span>
+      <input id="searchInput" type="search" placeholder="搜索会话…" aria-label="搜索会话">
+    </div>
+
+    <nav id="sessionList" class="sessions" aria-label="会话历史"></nav>
+
+    <div class="sidebar-foot">
+      <div class="clips">
+        <div class="clips-title">🔊 他的声音 · 金句试听</div>
+        <button class="clip" data-clip="clips/jinshe1.wav"><span class="clip-play">▶</span><span>「赢钱才是最恐怖的…」</span></button>
+        <button class="clip" data-clip="clips/jinshe2.wav"><span class="clip-play">▶</span><span>「没有小赌怡情这个说法」</span></button>
+        <button class="clip" data-clip="clips/jinshe3.wav"><span class="clip-play">▶</span><span>「往死里管！」</span></button>
+      </div>
+      <button id="hotlineBtn" class="foot-btn danger">🆘 求助热线</button>
+      <button id="settingsBtn" class="foot-btn">⚙ 模型与语音设置</button>
+      <div class="theme-row">
+        <span class="theme-label">主题</span>
+        <div class="theme-seg" role="group" aria-label="主题切换">
+          <button data-theme-set="light">亮</button>
+          <button data-theme-set="dark">暗</button>
+          <button data-theme-set="auto" class="active">自动</button>
+        </div>
+      </div>
+      <p class="disclaimer">AI 生成 · 非本人 · 个人学习用途<br>沉迷赌博有害，请及时止损</p>
+    </div>
+  </aside>
+
+  <!-- ============ 主区：顶栏 / 危机横幅 / 对话 / 输入 ============ -->
+  <main id="main">
+    <header id="topbar">
+      <button id="menuBtn" class="icon-btn" aria-label="切换侧栏">☰</button>
+      <div id="sessionTitle">🕯 忏悔室</div>
+      <div class="top-actions">
+        <button id="ttsToggle" class="icon-btn" title="自动朗读回复">🔇</button>
+        <button id="hotlineBtn2" class="icon-btn hot" title="求助热线">🆘</button>
+        <button id="themeBtn" class="icon-btn" title="切换主题">🌙</button>
+      </div>
+    </header>
+
+    <div id="crisisBanner" hidden role="alert">
+      <div class="crisis-icon">⚠️</div>
+      <div class="crisis-body">
+        <b>我注意到你可能有危险想法，先别做任何决定，别一个人扛。</b>
+        <div class="crisis-links">
+          <span><b>全国心理援助热线</b> 12356</span>
+          <span><b>北京心理危机干预中心</b> 010-82951332</span>
+          <span><b>紧急情况</b> 110 / 120</span>
+        </div>
+      </div>
+      <button id="crisisClose" class="crisis-x" aria-label="收起提醒">✕</button>
+    </div>
+
+    <div id="messages"><!-- 欢迎页与消息由 JS 渲染 --></div>
+
+    <button id="scrollBtn" class="scroll-bottom" hidden title="回到底部">↓</button>
+
+    <div id="composerWrap">
+      <div id="composer">
+        <textarea id="input" rows="1" placeholder="说出来吧，我听着…" aria-label="输入消息"></textarea>
+        <div class="composer-row">
+          <div class="mode-picker">
+            <button id="modeBtn" class="mode-pill" aria-haspopup="true" aria-expanded="false">🕯 忏悔室 <span class="chev">▾</span></button>
+            <div id="modeMenu" class="popover" hidden>
+              <div class="popover-title">三大功能 · 选择模式</div>
+              <button class="mode-card active" data-mode="confession">
+                <span class="mode-ic">🕯</span>
+                <span class="mode-info"><b>忏悔室</b><i>读稿 · 拆穿 · 劝醒</i></span>
+                <span class="mode-check">✓</span>
+              </button>
+              <button class="mode-card" data-mode="qa">
+                <span class="mode-ic">📖</span>
+                <span class="mode-info"><b>问答</b><i>科普 · 拆套路 · 给方法</i></span>
+                <span class="mode-check">✓</span>
+              </button>
+              <button class="mode-card" data-mode="chat">
+                <span class="mode-ic">☕</span>
+                <span class="mode-info"><b>闲聊</b><i>下播了 · 随便聊</i></span>
+                <span class="mode-check">✓</span>
+              </button>
+            </div>
+          </div>
+          <div class="composer-actions">
+            <button id="micBtn" class="composer-icon" title="语音输入" aria-label="语音输入">🎤</button>
+            <button id="sendBtn" class="send-btn" title="发送" aria-label="发送" disabled>
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <p class="composer-hint">
+        <span class="keys-hint"><kbd>Enter</kbd> 发送 · <kbd>Shift</kbd>+<kbd>Enter</kbd> 换行</span>
+        <span id="keyHint" class="key-hint">⚠️ 尚未配置模型 Key，点左侧 ⚙ 设置</span>
+      </p>
+    </div>
+  </main>
+</div>
+
+<!-- ============ 设置弹窗 ============ -->
+<dialog id="settingsModal">
+  <form method="dialog" class="modal">
+    <div class="modal-head">
+      <h2>⚙ 模型与语音设置</h2>
+      <button value="cancel" class="modal-x" aria-label="关闭">✕</button>
+    </div>
+    <section class="modal-sec">
+      <h3>模型接入</h3>
+      <label>供应商
+        <select id="cfgProvider">
+          <option value="deepseek">DeepSeek</option>
+          <option value="siliconflow">硅基流动 SiliconFlow</option>
+          <option value="openrouter">OpenRouter</option>
+          <option value="qwen">通义千问 Qwen</option>
+          <option value="custom">自定义</option>
+        </select>
+      </label>
+      <label>接口地址 Base URL
+        <input id="cfgBaseURL" type="text" placeholder="https://api.deepseek.com/v1" autocomplete="off">
+      </label>
+      <label>API Key
+        <input id="cfgKey" type="password" placeholder="已保存则留空不变" autocomplete="off">
+      </label>
+      <label>模型
+        <input id="cfgModel" type="text" placeholder="deepseek-chat" autocomplete="off">
+      </label>
+    </section>
+    <section class="modal-sec">
+      <h3>生成参数</h3>
+      <div class="row2">
+        <label>温度 <input id="cfgTemp" type="number" min="0" max="2" step="0.1"></label>
+        <label>最大输出 <input id="cfgMax" type="number" min="256" max="8192" step="256"></label>
+      </div>
+    </section>
+    <section class="modal-sec">
+      <h3>语音</h3>
+      <label>朗读引擎
+        <select id="cfgTtsEngine">
+          <option value="browser">浏览器语音（快，通用音色）</option>
+          <option value="clone">音色克隆 CosyVoice2（慢，需启动 tts/tts_server.py）</option>
+        </select>
+      </label>
+      <label class="check"><input id="cfgTTS" type="checkbox"> 回复完成后自动朗读</label>
+    </section>
+    <div class="modal-actions">
+      <button type="button" id="testBtn" class="ghost">测试连接</button>
+      <span style="flex:1"></span>
+      <button value="cancel" class="ghost">取消</button>
+      <button type="button" id="saveCfgBtn" class="primary">保存</button>
+    </div>
+    <p id="testResult" class="test-result"></p>
+  </form>
+</dialog>
+
+<!-- ============ 求助热线弹窗 ============ -->
+<dialog id="hotlineModal">
+  <form method="dialog" class="modal">
+    <div class="modal-head">
+      <h2>🆘 求助热线</h2>
+      <button value="cancel" class="modal-x" aria-label="关闭">✕</button>
+    </div>
+    <p>如果你或身边的人正深陷赌博或情绪危机，这些渠道能帮上忙：</p>
+    <div class="hotline-card"><div class="hl-icon">📞</div><div class="hl-info"><b>全国统一心理援助热线</b><small>24 小时 · 国家卫健委</small></div><span>12356</span></div>
+    <div class="hotline-card"><div class="hl-icon">🕊</div><div class="hl-info"><b>北京心理危机研究与干预中心</b><small>自杀危机干预 · 24 小时</small></div><span>010-82951332</span></div>
+    <div class="hotline-card"><div class="hl-icon">💛</div><div class="hl-info"><b>希望 24 热线</b><small>心理危机干预</small></div><span>400-161-9995</span></div>
+    <div class="hotline-card urgent"><div class="hl-icon">🚨</div><div class="hl-info"><b>紧急情况</b><small>立即拨打</small></div><span>110 / 120</span></div>
+    <div class="modal-actions"><span style="flex:1"></span><button value="cancel" class="primary">知道了</button></div>
+  </form>
+</dialog>
+
+<div id="toast" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>
