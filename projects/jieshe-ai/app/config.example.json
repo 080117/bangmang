@@ -1,0 +1,10 @@
+{
+  "provider": "openrouter",
+  "baseURL": "https://openrouter.ai/api/v1",
+  "apiKey": "",
+  "model": "deepseek/deepseek-chat",
+  "temperature": 0.9,
+  "maxTokens": 2048,
+  "ttsEnabled": false,
+  "ttsEngine": "browser"
+}
