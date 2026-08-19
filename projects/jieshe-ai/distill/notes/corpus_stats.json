@@ -1,0 +1,1371 @@
+{
+  "analyzedAt": 1786906533682,
+  "files": 192,
+  "chars": 4065326,
+  "sentences": 389369,
+  "topPhrases": [
+    {
+      "phrase": "一个",
+      "count": 12853
+    },
+    {
+      "phrase": "时候",
+      "count": 12269
+    },
+    {
+      "phrase": "觉得",
+      "count": 7778
+    },
+    {
+      "phrase": "的时",
+      "count": 7741
+    },
+    {
+      "phrase": "真的",
+      "count": 7464
+    },
+    {
+      "phrase": "的时候",
+      "count": 7407
+    },
+    {
+      "phrase": "现在",
+      "count": 7272
+    },
+    {
+      "phrase": "不要",
+      "count": 6579
+    },
+    {
+      "phrase": "怎么",
+      "count": 6251
+    },
+    {
+      "phrase": "一下",
+      "count": 5733
+    },
+    {
+      "phrase": "可能",
+      "count": 5322
+    },
+    {
+      "phrase": "这种",
+      "count": 5231
+    },
+    {
+      "phrase": "事情",
+      "count": 5019
+    },
+    {
+      "phrase": "问题",
+      "count": 4893
+    },
+    {
+      "phrase": "东西",
+      "count": 4721
+    },
+    {
+      "phrase": "网贷",
+      "count": 4685
+    },
+    {
+      "phrase": "个月",
+      "count": 4632
+    },
+    {
+      "phrase": "也不",
+      "count": 4602
+    },
+    {
+      "phrase": "家里",
+      "count": 4566
+    },
+    {
+      "phrase": "之后",
+      "count": 4432
+    },
+    {
+      "phrase": "父母",
+      "count": 4333
+    },
+    {
+      "phrase": "不能",
+      "count": 4212
+    },
+    {
+      "phrase": "开始",
+      "count": 4145
+    },
+    {
+      "phrase": "样子",
+      "count": 4128
+    },
+    {
+      "phrase": "是吧",
+      "count": 4077
+    },
+    {
+      "phrase": "谢谢",
+      "count": 3989
+    },
+    {
+      "phrase": "跟你",
+      "count": 3890
+    },
+    {
+      "phrase": "这样",
+      "count": 3808
+    },
+    {
+      "phrase": "你看",
+      "count": 3799
+    },
+    {
+      "phrase": "出来",
+      "count": 3780
+    },
+    {
+      "phrase": "工作",
+      "count": 3735
+    },
+    {
+      "phrase": "生活",
+      "count": 3661
+    },
+    {
+      "phrase": "朋友",
+      "count": 3650
+    },
+    {
+      "phrase": "妈妈",
+      "count": 3459
+    },
+    {
+      "phrase": "了一",
+      "count": 3436
+    },
+    {
+      "phrase": "个时",
+      "count": 3325
+    },
+    {
+      "phrase": "别人",
+      "count": 3221
+    },
+    {
+      "phrase": "我说",
+      "count": 3158
+    },
+    {
+      "phrase": "一直",
+      "count": 3156
+    },
+    {
+      "phrase": "有一",
+      "count": 3142
+    },
+    {
+      "phrase": "一点",
+      "count": 3115
+    },
+    {
+      "phrase": "个时候",
+      "count": 3114
+    },
+    {
+      "phrase": "感觉",
+      "count": 2994
+    },
+    {
+      "phrase": "消费",
+      "count": 2989
+    },
+    {
+      "phrase": "很多",
+      "count": 2984
+    },
+    {
+      "phrase": "坦白",
+      "count": 2982
+    },
+    {
+      "phrase": "里面",
+      "count": 2963
+    },
+    {
+      "phrase": "给我",
+      "count": 2920
+    },
+    {
+      "phrase": "不会",
+      "count": 2894
+    },
+    {
+      "phrase": "一次",
+      "count": 2866
+    },
+    {
+      "phrase": "赌博",
+      "count": 2854
+    },
+    {
+      "phrase": "这些",
+      "count": 2835
+    },
+    {
+      "phrase": "大家",
+      "count": 2762
+    },
+    {
+      "phrase": "是一",
+      "count": 2721
+    },
+    {
+      "phrase": "的话",
+      "count": 2710
+    },
+    {
+      "phrase": "孩子",
+      "count": 2690
+    },
+    {
+      "phrase": "我也",
+      "count": 2686
+    },
+    {
+      "phrase": "老板",
+      "count": 2654
+    },
+    {
+      "phrase": "我妈",
+      "count": 2652
+    },
+    {
+      "phrase": "后面",
+      "count": 2638
+    },
+    {
+      "phrase": "你说",
+      "count": 2594
+    },
+    {
+      "phrase": "有些",
+      "count": 2582
+    },
+    {
+      "phrase": "当时",
+      "count": 2574
+    },
+    {
+      "phrase": "说的",
+      "count": 2557
+    },
+    {
+      "phrase": "看到",
+      "count": 2540
+    },
+    {
+      "phrase": "钱的",
+      "count": 2536
+    },
+    {
+      "phrase": "借钱",
+      "count": 2534
+    },
+    {
+      "phrase": "时间",
+      "count": 2484
+    },
+    {
+      "phrase": "给你",
+      "count": 2470
+    },
+    {
+      "phrase": "块钱",
+      "count": 2470
+    },
+    {
+      "phrase": "些人",
+      "count": 2461
+    },
+    {
+      "phrase": "大学",
+      "count": 2453
+    },
+    {
+      "phrase": "赌狗",
+      "count": 2437
+    },
+    {
+      "phrase": "的钱",
+      "count": 2406
+    },
+    {
+      "phrase": "也没",
+      "count": 2405
+    },
+    {
+      "phrase": "正常",
+      "count": 2399
+    },
+    {
+      "phrase": "一样",
+      "count": 2391
+    },
+    {
+      "phrase": "之前",
+      "count": 2366
+    },
+    {
+      "phrase": "姐姐",
+      "count": 2355
+    },
+    {
+      "phrase": "不好",
+      "count": 2350
+    },
+    {
+      "phrase": "的事",
+      "count": 2319
+    },
+    {
+      "phrase": "最后",
+      "count": 2281
+    },
+    {
+      "phrase": "一定",
+      "count": 2268
+    },
+    {
+      "phrase": "多少",
+      "count": 2261
+    },
+    {
+      "phrase": "发现",
+      "count": 2250
+    },
+    {
+      "phrase": "你要",
+      "count": 2250
+    },
+    {
+      "phrase": "好的",
+      "count": 2223
+    },
+    {
+      "phrase": "不想",
+      "count": 2175
+    },
+    {
+      "phrase": "两个",
+      "count": 2161
+    },
+    {
+      "phrase": "了啊",
+      "count": 2150
+    },
+    {
+      "phrase": "说你",
+      "count": 2145
+    },
+    {
+      "phrase": "借网",
+      "count": 2140
+    },
+    {
+      "phrase": "应该",
+      "count": 2129
+    },
+    {
+      "phrase": "谢老",
+      "count": 2126
+    },
+    {
+      "phrase": "这样子",
+      "count": 2123
+    },
+    {
+      "phrase": "看看",
+      "count": 2120
+    },
+    {
+      "phrase": "谢老板",
+      "count": 2106
+    },
+    {
+      "phrase": "给他",
+      "count": 2086
+    },
+    {
+      "phrase": "借网贷",
+      "count": 2075
+    },
+    {
+      "phrase": "我跟",
+      "count": 2068
+    },
+    {
+      "phrase": "也是",
+      "count": 2048
+    },
+    {
+      "phrase": "子的",
+      "count": 2046
+    },
+    {
+      "phrase": "希望",
+      "count": 2042
+    },
+    {
+      "phrase": "第一",
+      "count": 2031
+    },
+    {
+      "phrase": "那种",
+      "count": 2007
+    },
+    {
+      "phrase": "来的",
+      "count": 2006
+    },
+    {
+      "phrase": "到了",
+      "count": 2002
+    },
+    {
+      "phrase": "送的",
+      "count": 1951
+    },
+    {
+      "phrase": "或者",
+      "count": 1943
+    },
+    {
+      "phrase": "你妈",
+      "count": 1937
+    },
+    {
+      "phrase": "一些",
+      "count": 1916
+    },
+    {
+      "phrase": "我觉",
+      "count": 1907
+    },
+    {
+      "phrase": "我觉得",
+      "count": 1905
+    },
+    {
+      "phrase": "想着",
+      "count": 1898
+    },
+    {
+      "phrase": "谢谢老",
+      "count": 1894
+    },
+    {
+      "phrase": "这个时",
+      "count": 1889
+    },
+    {
+      "phrase": "干嘛",
+      "count": 1879
+    },
+    {
+      "phrase": "谢谢老板",
+      "count": 1879
+    },
+    {
+      "phrase": "我一",
+      "count": 1875
+    },
+    {
+      "phrase": "你爸",
+      "count": 1870
+    },
+    {
+      "phrase": "而且",
+      "count": 1864
+    },
+    {
+      "phrase": "只是",
+      "count": 1858
+    },
+    {
+      "phrase": "工资",
+      "count": 1853
+    },
+    {
+      "phrase": "这里",
+      "count": 1846
+    },
+    {
+      "phrase": "今天",
+      "count": 1830
+    },
+    {
+      "phrase": "我爸",
+      "count": 1825
+    },
+    {
+      "phrase": "其实",
+      "count": 1813
+    },
+    {
+      "phrase": "有些人",
+      "count": 1805
+    },
+    {
+      "phrase": "来了",
+      "count": 1804
+    },
+    {
+      "phrase": "爸爸",
+      "count": 1801
+    },
+    {
+      "phrase": "手机",
+      "count": 1800
+    },
+    {
+      "phrase": "喜欢",
+      "count": 1792
+    },
+    {
+      "phrase": "他说",
+      "count": 1783
+    },
+    {
+      "phrase": "的事情",
+      "count": 1765
+    },
+    {
+      "phrase": "这个时候",
+      "count": 1759
+    },
+    {
+      "phrase": "一个月",
+      "count": 1746
+    },
+    {
+      "phrase": "让你",
+      "count": 1745
+    },
+    {
+      "phrase": "结果",
+      "count": 1713
+    },
+    {
+      "phrase": "让我",
+      "count": 1709
+    },
+    {
+      "phrase": "去了",
+      "count": 1700
+    },
+    {
+      "phrase": "直播",
+      "count": 1700
+    },
+    {
+      "phrase": "句话",
+      "count": 1673
+    },
+    {
+      "phrase": "是说",
+      "count": 1671
+    },
+    {
+      "phrase": "一起",
+      "count": 1667
+    },
+    {
+      "phrase": "你讲",
+      "count": 1664
+    },
+    {
+      "phrase": "情绪",
+      "count": 1652
+    },
+    {
+      "phrase": "慢慢",
+      "count": 1646
+    },
+    {
+      "phrase": "人家",
+      "count": 1632
+    },
+    {
+      "phrase": "说了",
+      "count": 1616
+    },
+    {
+      "phrase": "上班",
+      "count": 1615
+    },
+    {
+      "phrase": "有点",
+      "count": 1604
+    },
+    {
+      "phrase": "到这",
+      "count": 1579
+    },
+    {
+      "phrase": "跟他",
+      "count": 1579
+    },
+    {
+      "phrase": "办法",
+      "count": 1578
+    },
+    {
+      "phrase": "每个",
+      "count": 1576
+    },
+    {
+      "phrase": "意思",
+      "count": 1567
+    },
+    {
+      "phrase": "跟你讲",
+      "count": 1565
+    },
+    {
+      "phrase": "的S",
+      "count": 1564
+    },
+    {
+      "phrase": "花呗",
+      "count": 1546
+    },
+    {
+      "phrase": "赢钱",
+      "count": 1545
+    },
+    {
+      "phrase": "个事",
+      "count": 1518
+    },
+    {
+      "phrase": "么多",
+      "count": 1513
+    },
+    {
+      "phrase": "恐怖",
+      "count": 1512
+    },
+    {
+      "phrase": "这一",
+      "count": 1509
+    },
+    {
+      "phrase": "我跟你",
+      "count": 1501
+    },
+    {
+      "phrase": "送的S",
+      "count": 1494
+    },
+    {
+      "phrase": "让他",
+      "count": 1493
+    },
+    {
+      "phrase": "下来",
+      "count": 1490
+    },
+    {
+      "phrase": "日子",
+      "count": 1481
+    },
+    {
+      "phrase": "的啊",
+      "count": 1474
+    },
+    {
+      "phrase": "的一",
+      "count": 1473
+    },
+    {
+      "phrase": "还要",
+      "count": 1469
+    },
+    {
+      "phrase": "出去",
+      "count": 1467
+    },
+    {
+      "phrase": "跟我",
+      "count": 1466
+    },
+    {
+      "phrase": "肯定",
+      "count": 1464
+    },
+    {
+      "phrase": "好像",
+      "count": 1463
+    },
+    {
+      "phrase": "不到",
+      "count": 1452
+    },
+    {
+      "phrase": "懂吧",
+      "count": 1428
+    },
+    {
+      "phrase": "情况",
+      "count": 1427
+    },
+    {
+      "phrase": "解决",
+      "count": 1420
+    },
+    {
+      "phrase": "说我",
+      "count": 1419
+    },
+    {
+      "phrase": "爸妈",
+      "count": 1418
+    },
+    {
+      "phrase": "SC",
+      "count": 1412
+    },
+    {
+      "phrase": "一天",
+      "count": 1405
+    },
+    {
+      "phrase": "起来",
+      "count": 1404
+    },
+    {
+      "phrase": "甚至",
+      "count": 1399
+    },
+    {
+      "phrase": "家人",
+      "count": 1390
+    },
+    {
+      "phrase": "样子的",
+      "count": 1384
+    },
+    {
+      "phrase": "那个时",
+      "count": 1374
+    },
+    {
+      "phrase": "完了",
+      "count": 1372
+    },
+    {
+      "phrase": "个事情",
+      "count": 1365
+    },
+    {
+      "phrase": "懂不",
+      "count": 1354
+    },
+    {
+      "phrase": "那个时候",
+      "count": 1351
+    },
+    {
+      "phrase": "不敢",
+      "count": 1347
+    },
+    {
+      "phrase": "价值",
+      "count": 1346
+    },
+    {
+      "phrase": "变成",
+      "count": 1339
+    },
+    {
+      "phrase": "我看",
+      "count": 1336
+    },
+    {
+      "phrase": "是一个",
+      "count": 1332
+    },
+    {
+      "phrase": "说一",
+      "count": 1330
+    },
+    {
+      "phrase": "的生",
+      "count": 1324
+    },
+    {
+      "phrase": "你一",
+      "count": 1319
+    },
+    {
+      "phrase": "视频",
+      "count": 1315
+    },
+    {
+      "phrase": "这个事",
+      "count": 1315
+    },
+    {
+      "phrase": "一个人",
+      "count": 1302
+    },
+    {
+      "phrase": "后来",
+      "count": 1302
+    },
+    {
+      "phrase": "不一",
+      "count": 1301
+    },
+    {
+      "phrase": "我跟你讲",
+      "count": 1297
+    },
+    {
+      "phrase": "一年",
+      "count": 1271
+    },
+    {
+      "phrase": "告诉",
+      "count": 1268
+    },
+    {
+      "phrase": "说这",
+      "count": 1264
+    },
+    {
+      "phrase": "脑子",
+      "count": 1263
+    },
+    {
+      "phrase": "天天",
+      "count": 1262
+    },
+    {
+      "phrase": "需要",
+      "count": 1244
+    },
+    {
+      "phrase": "的呀",
+      "count": 1244
+    },
+    {
+      "phrase": "开心",
+      "count": 1239
+    },
+    {
+      "phrase": "有一个",
+      "count": 1236
+    },
+    {
+      "phrase": "有钱",
+      "count": 1236
+    },
+    {
+      "phrase": "直接",
+      "count": 1229
+    },
+    {
+      "phrase": "的问",
+      "count": 1225
+    },
+    {
+      "phrase": "钱了",
+      "count": 1221
+    },
+    {
+      "phrase": "心里",
+      "count": 1220
+    },
+    {
+      "phrase": "多人",
+      "count": 1220
+    },
+    {
+      "phrase": "我想",
+      "count": 1214
+    },
+    {
+      "phrase": "把这",
+      "count": 1210
+    },
+    {
+      "phrase": "信用",
+      "count": 1209
+    },
+    {
+      "phrase": "的SC",
+      "count": 1208
+    },
+    {
+      "phrase": "特别",
+      "count": 1204
+    },
+    {
+      "phrase": "没钱",
+      "count": 1203
+    },
+    {
+      "phrase": "这个事情",
+      "count": 1197
+    },
+    {
+      "phrase": "的问题",
+      "count": 1187
+    },
+    {
+      "phrase": "的生活",
+      "count": 1187
+    },
+    {
+      "phrase": "哪里",
+      "count": 1185
+    },
+    {
+      "phrase": "你看看",
+      "count": 1178
+    },
+    {
+      "phrase": "家庭",
+      "count": 1175
+    },
+    {
+      "phrase": "用卡",
+      "count": 1168
+    },
+    {
+      "phrase": "送的SC",
+      "count": 1166
+    },
+    {
+      "phrase": "说他",
+      "count": 1165
+    },
+    {
+      "phrase": "说不",
+      "count": 1163
+    },
+    {
+      "phrase": "信用卡",
+      "count": 1157
+    },
+    {
+      "phrase": "其他",
+      "count": 1156
+    },
+    {
+      "phrase": "房子",
+      "count": 1150
+    },
+    {
+      "phrase": "回来",
+      "count": 1148
+    },
+    {
+      "phrase": "就会",
+      "count": 1146
+    },
+    {
+      "phrase": "那些",
+      "count": 1146
+    },
+    {
+      "phrase": "贷款",
+      "count": 1145
+    },
+    {
+      "phrase": "还钱",
+      "count": 1140
+    },
+    {
+      "phrase": "只有",
+      "count": 1138
+    },
+    {
+      "phrase": "每天",
+      "count": 1135
+    },
+    {
+      "phrase": "看你",
+      "count": 1129
+    },
+    {
+      "phrase": "我真",
+      "count": 1121
+    },
+    {
+      "phrase": "面的",
+      "count": 1120
+    },
+    {
+      "phrase": "能力",
+      "count": 1119
+    },
+    {
+      "phrase": "实话",
+      "count": 1116
+    },
+    {
+      "phrase": "能不",
+      "count": 1107
+    },
+    {
+      "phrase": "你也",
+      "count": 1107
+    },
+    {
+      "phrase": "前面",
+      "count": 1103
+    },
+    {
+      "phrase": "关系",
+      "count": 1098
+    },
+    {
+      "phrase": "多了",
+      "count": 1092
+    },
+    {
+      "phrase": "么办",
+      "count": 1091
+    },
+    {
+      "phrase": "一句",
+      "count": 1090
+    },
+    {
+      "phrase": "要去",
+      "count": 1086
+    },
+    {
+      "phrase": "我现",
+      "count": 1086
+    },
+    {
+      "phrase": "者说",
+      "count": 1082
+    },
+    {
+      "phrase": "或者说",
+      "count": 1081
+    },
+    {
+      "phrase": "只要",
+      "count": 1080
+    },
+    {
+      "phrase": "遇到",
+      "count": 1074
+    },
+    {
+      "phrase": "的东",
+      "count": 1074
+    },
+    {
+      "phrase": "每个月",
+      "count": 1073
+    },
+    {
+      "phrase": "我要",
+      "count": 1071
+    },
+    {
+      "phrase": "压力",
+      "count": 1071
+    },
+    {
+      "phrase": "这么多",
+      "count": 1070
+    },
+    {
+      "phrase": "的东西",
+      "count": 1066
+    },
+    {
+      "phrase": "活费",
+      "count": 1065
+    },
+    {
+      "phrase": "生活费",
+      "count": 1065
+    },
+    {
+      "phrase": "我现在",
+      "count": 1065
+    },
+    {
+      "phrase": "恋爱",
+      "count": 1063
+    },
+    {
+      "phrase": "也没有",
+      "count": 1062
+    },
+    {
+      "phrase": "征信",
+      "count": 1060
+    },
+    {
+      "phrase": "电话",
+      "count": 1059
+    },
+    {
+      "phrase": "怎么办",
+      "count": 1059
+    },
+    {
+      "phrase": "下去",
+      "count": 1052
+    },
+    {
+      "phrase": "理解",
+      "count": 1048
+    },
+    {
+      "phrase": "好多",
+      "count": 1048
+    },
+    {
+      "phrase": "只能",
+      "count": 1046
+    },
+    {
+      "phrase": "努力",
+      "count": 1043
+    },
+    {
+      "phrase": "不管",
+      "count": 1030
+    },
+    {
+      "phrase": "进去",
+      "count": 1029
+    },
+    {
+      "phrase": "好好",
+      "count": 1026
+    },
+    {
+      "phrase": "欠了",
+      "count": 1026
+    },
+    {
+      "phrase": "说实",
+      "count": 1025
+    },
+    {
+      "phrase": "第二",
+      "count": 1024
+    },
+    {
+      "phrase": "害怕",
+      "count": 1023
+    },
+    {
+      "phrase": "对象",
+      "count": 1020
+    },
+    {
+      "phrase": "道理",
+      "count": 1006
+    },
+    {
+      "phrase": "以前",
+      "count": 1004
+    },
+    {
+      "phrase": "说实话",
+      "count": 1004
+    },
+    {
+      "phrase": "确实",
+      "count": 1000
+    },
+    {
+      "phrase": "比较",
+      "count": 993
+    },
+    {
+      "phrase": "明白",
+      "count": 993
+    },
+    {
+      "phrase": "借了",
+      "count": 992
+    }
+  ],
+  "sentenceEndings": [
+    [
+      "是吧",
+      3794
+    ],
+    [
+      "了啊",
+      2114
+    ],
+    [
+      "的啊",
+      1440
+    ],
+    [
+      "懂吧",
+      1353
+    ],
+    [
+      "的呀",
+      1041
+    ],
+    [
+      "好吧",
+      844
+    ],
+    [
+      "干嘛",
+      703
+    ],
+    [
+      "了呀",
+      668
+    ],
+    [
+      "钱啊",
+      422
+    ],
+    [
+      "人啊",
+      334
+    ],
+    [
+      "了吧",
+      314
+    ],
+    [
+      "么呢",
+      313
+    ],
+    [
+      "下啊",
+      304
+    ],
+    [
+      "子啊",
+      297
+    ],
+    [
+      "话啊",
+      265
+    ],
+    [
+      "你啊",
+      259
+    ],
+    [
+      "说啊",
+      251
+    ],
+    [
+      "西啊",
+      246
+    ],
+    [
+      "么啊",
+      241
+    ],
+    [
+      "看啊",
+      232
+    ],
+    [
+      "呀,",
+      231
+    ],
+    [
+      "钱呀",
+      229
+    ],
+    [
+      "哎呀",
+      228
+    ],
+    [
+      "题啊",
+      215
+    ],
+    [
+      "好啊",
+      213
+    ],
+    [
+      "嘛啊",
+      195
+    ],
+    [
+      "的呢",
+      193
+    ],
+    [
+      "点啊",
+      188
+    ],
+    [
+      "吧,",
+      185
+    ],
+    [
+      "吗啊",
+      185
+    ],
+    [
+      "后呢",
+      176
+    ],
+    [
+      "啊,",
+      175
+    ],
+    [
+      "万啊",
+      171
+    ],
+    [
+      "个啊",
+      170
+    ],
+    [
+      "讲啊",
+      164
+    ],
+    [
+      "办呢",
+      161
+    ],
+    [
+      "钱呢",
+      160
+    ],
+    [
+      "吧啊",
+      157
+    ],
+    [
+      "样啊",
+      145
+    ],
+    [
+      "嘛呢",
+      137
+    ]
+  ],
+  "sampleSentences": []
+}
